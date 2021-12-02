@@ -43,6 +43,7 @@ public class CtrlIniciarSesion implements ActionListener {
                 ModeloFactura modeloFactura = new ModeloFactura();
                 CtrlBD ctrlBD = new CtrlBD();
                 ctrlVistaAdmin ctrlVistaAdmin = new ctrlVistaAdmin(adminVista, modeloFactura,ctrlBD);
+                System.out.println("Bienvenido, guapo:v");
                 ctrlVistaAdmin.IniciarAdminVista();
                 vistaIniciarSesion.dispose();                        
                 
